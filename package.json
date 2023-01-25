@@ -19,8 +19,7 @@
     "build:es": "rollup --config build/rollup.esm.config.js",
     "build:umd": "rollup --config build/rollup.umd.config.js",
     "clean": "rimraf ./dist",
-    "lint": "vue-cli-service lint",
-    "test": "npm run build"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "lodash-es": "^4.17.15",
